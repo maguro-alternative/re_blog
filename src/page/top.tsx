@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import Meta from "../meta"
 import zu3 from "../pic/zu3.png"
+import '../css/index.css';
 
 class toppage extends React.Component {
     render() {
