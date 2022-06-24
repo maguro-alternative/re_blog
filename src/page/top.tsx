@@ -29,8 +29,8 @@ function Toplist(){
           <nav className="global-nav">
             <ul className="nav-list">
               <li className="nav-item"><Link to={`/`}>トップ</Link></li>
-              <li className="nav-item"><Link to={`/page1`}>記事一覧</Link></li>
-              <li className="nav-item"><Link to={`/page2`}>メンバー紹介</Link></li>
+              <li className="nav-item"><Link to={`/topic`}>記事一覧</Link></li>
+              <li className="nav-item"><Link to={`/profile`}>メンバー紹介</Link></li>
             </ul>
           </nav>
         </header>

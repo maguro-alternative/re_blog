@@ -1,13 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-
 import Topic from './page/topic'
 import Top from './page/top'
 import Profile from './page/profile'
 
 import { BrowserRouter, Route ,Routes } from 'react-router-dom';
 import './css/App.css';
-import { Helmet } from "react-helmet"
 
 function App() {
   return (
