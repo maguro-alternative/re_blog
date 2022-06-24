@@ -9,7 +9,7 @@ class toppage extends React.Component {
         return (
             <div id="ba">
                 <div id="bg"></div>
-                <canvas id="canvasOverlay"></canvas>
+                <canvas id="canvasOverlay"/>
                 <Meta name="マグロ隊長ポータル" description="マグロ隊長のポートフォリオとかです" pic={zu3}/>
                 <Toplist/>
                 <br/><br/><br/><br/>
