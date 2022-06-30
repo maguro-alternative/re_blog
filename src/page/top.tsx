@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 import Meta from "../meta"
 import zu3 from "../pic/zu3.png"
+
 import '../css/index.css';
 
 class toppage extends React.Component {
@@ -14,7 +15,7 @@ class toppage extends React.Component {
                 <br/><br/><br/><br/>
                 <Topber/>
                 <Mainber/>
-                <iframe id="ifover" src="https://sigumataityouda.netlify.app/test.html?wmode=transparent" scrolling="no"></iframe>
+                <iframe id="ifover" src="https://maguro-tai.netlify.app/back/test.html" scrolling="no"></iframe>
             </div>
         );
     }

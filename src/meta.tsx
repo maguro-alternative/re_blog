@@ -1,11 +1,9 @@
 import { Helmet } from 'react-helmet'
-import React, { Component , useEffect } from "react";
+
 import './css/index.css';
 
 
 function Meta(props:any){
-    //console.log(typeof ws)
-    //console.log(ws)
     console.log(window.location)
     return(
         <Helmet>
@@ -22,33 +20,5 @@ function Meta(props:any){
         </Helmet>
     )
 }
-/*
-export default class MyAwesomeMainCanvas extends Component {
-    componentWillMount() {
-        var s = document.createElement( "script" );
-        console.log(s)
-        s.src = "https://sigumataityouda.netlify.app/back/sls.js";
-        s.async = true;
-        document.body.appendChild( s );
-        //document.body.removeChild(s)
-        var ss = document.createElement( "script" );
-        ss.src = "https://sigumataityouda.netlify.app/back/ws.js";
-        ss.async = true;
-        document.body.appendChild( ss );
-        console.log(ss)
-        var sss = document.createElement( "script" );
-        sss.src = "https://sigumataityouda.netlify.app/back/4saw.js";
-        sss.async = true;
-        document.body.appendChild( sss );
-        console.log(sss)
-      }
-  render() {
-    return (
-        <canvas id="canvasOverlay"></canvas>
-    );
-  }
- 
-  
-}*/
-//export default document.addEventListener('DOMContentLoaded', MyAwesomeMainCanvas);
+
 export default Meta;
