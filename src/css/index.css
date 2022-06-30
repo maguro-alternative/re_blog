@@ -1,12 +1,12 @@
 
 #ba{
-	background-color: rgb(129, 165, 121);
+	background-color: rgb(250, 250, 250);
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	overflow-x: visible;
-	overflow-y: visible;
+	overflow-x: hidden;
+	overflow-y: hidden;
 	z-index: 1;
 }
 
@@ -26,13 +26,13 @@
 #ifover {
 	top: 0;
 	left: 0;
-	min-height: 100%;
+	min-height:100%;
 	min-width:100%;
 	z-index: -1;
 	/*min-width:100vw;
 	min-height:100vh;*/
-	overflow-x: visible;
-	overflow-y: visible;
+	overflow-x: hidden;
+	overflow-y: hidden;
 	position: absolute;
 	/*position: fixed;*/
 	mix-blend-mode: hard-light;

@@ -9,7 +9,7 @@ class toppage extends React.Component {
     render() {
         return (
             <div id="ba">
-                <Meta/>
+                <Meta name="マグロ隊長ポータル" pic={zu3} description="マグロ隊長のポータルです。"/>
                 <Toplist/>
                 <br/><br/><br/><br/>
                 <Topber/>
