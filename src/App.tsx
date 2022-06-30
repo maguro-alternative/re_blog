@@ -13,7 +13,7 @@ function App() {
           <Route path={"/topic"} element={<Topic/>}/>
           <Route path={"/profile"} element={<Profile/>}/>
         </Routes>
-      </BrowserRouter>
+    </BrowserRouter>
   );
 }
 

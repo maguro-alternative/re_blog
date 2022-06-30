@@ -9,13 +9,12 @@ class toppage extends React.Component {
     render() {
         return (
             <div id="ba">
-                <div id="bg"></div>
-                <canvas id="canvasOverlay"/>
-                <Meta name="マグロ隊長ポータル" description="マグロ隊長のポートフォリオとかです" pic={zu3}/>
+                <Meta/>
                 <Toplist/>
                 <br/><br/><br/><br/>
                 <Topber/>
                 <Mainber/>
+                <iframe id="ifover" src="https://sigumataityouda.netlify.app/test.html?wmode=transparent" scrolling="no"></iframe>
             </div>
         );
     }

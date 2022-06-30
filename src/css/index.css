@@ -1,12 +1,13 @@
 
 #ba{
-	background-color: rgb(60, 175, 37);
+	background-color: rgb(129, 165, 121);
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	overflow-x: visible;
 	overflow-y: visible;
+	z-index: 1;
 }
 
 #canvasOverlay {
@@ -22,8 +23,24 @@
 	mix-blend-mode: hard-light;
 }
 
+#ifover {
+	top: 0;
+	left: 0;
+	min-height: 100%;
+	min-width:100%;
+	z-index: -1;
+	/*min-width:100vw;
+	min-height:100vh;*/
+	overflow-x: visible;
+	overflow-y: visible;
+	position: absolute;
+	/*position: fixed;*/
+	mix-blend-mode: hard-light;
+}
+
 #bg {
 	/*position: fixed;*/
+	z-index: 1;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -36,9 +53,9 @@
 	min-height: 100vh;
 	padding-top: 0%;
 	background: linear-gradient(to bottom,
-	hsl(145, 60%, 40%),
-	hsl(152, 50%, 60%),
-	hsl(175, 40%, 40%));
+	hsl(145, 33%, 48%),
+	hsl(152, 21%, 54%),
+	hsl(175, 20%, 53%));
 	animation: AnimationName 10s ease infinite;
 }
 
