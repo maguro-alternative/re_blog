@@ -7,6 +7,7 @@ import zu3 from "../pic/zu3.png"
 import '../css/index.css';
 
 class toppage extends React.Component {
+
     render() {
         return (
             <div id="ba">
@@ -15,7 +16,7 @@ class toppage extends React.Component {
                 <br/><br/><br/><br/>
                 <Topber/>
                 <Mainber/>
-                <iframe id="ifover" src="https://maguro-tai.netlify.app/back/test.html" scrolling="no"></iframe>
+                <iframe id="ifover" src="https://sigumataityouda.netlify.app/test.html" scrolling="no"></iframe>
             </div>
         );
     }
