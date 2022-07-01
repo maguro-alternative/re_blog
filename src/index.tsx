@@ -10,7 +10,6 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <App />
-    <iframe id="ifover" src="https://sigumataityouda.netlify.app/test.html" scrolling="no"></iframe>
   </React.StrictMode>
 );
 reportWebVitals();

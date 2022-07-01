@@ -11,7 +11,8 @@ class profile extends React.Component {
             <div id="ba">
                 <Meta name="マグロ隊長ポータル" pic={zu3} description="マグロ隊長のポータルです。"/>
                 <Toplist/>
-               
+                <Mainber/>
+                <iframe id="ifover" src="https://sigumataityouda.netlify.app/test.html" scrolling="no"></iframe>
             </div>
         )
     }
@@ -33,4 +34,18 @@ function Toplist(){
         </header>
       </div>
     )
+}
+
+function Mainber(){
+  return(
+    <div className="wrapper">
+          <div className="topmainbar">
+              <div className="textback">
+                  <h2>本ページへようこそ！！</h2>
+                  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+              </div>
+              <iframe className="disgetbot" src="https://discord.com/widget?id=838937935822585928&theme=dark" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+          </div>
+      </div>
+  )
 }
