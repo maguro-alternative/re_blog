@@ -6,6 +6,7 @@ import zu3 from "../pic/zu3.png"
 import '../css/index.css';
 
 class topic extends React.Component {
+    
     render() {
         return(
             <div id="ba">

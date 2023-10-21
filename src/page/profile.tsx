@@ -1,12 +1,15 @@
 import React from 'react';
+import { useParams } from 'react-router-dom'
+
 
 import Meta from "../meta"
 import Toplist from "../toplist"
 import zu3 from "../pic/zu3.png"
-import '../css/index.css';
+import '../css/index.css'
 
-class profile extends React.Component {
-    render() {
+/*class profile extends React.Component {
+    render() {*/
+    function profile(){
         return(
             <div id="ba">
                 <Meta name="マグロ隊長ポータル" pic={zu3} description="マグロ隊長のポータルです。"/>
@@ -16,11 +19,12 @@ class profile extends React.Component {
             </div>
         )
     }
-}
+//}
 
 export default profile;
 
 function Mainber(){
+    
   return(
     <div className="wrapper">
           <div className="topmainbar">

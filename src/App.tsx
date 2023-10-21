@@ -2,7 +2,7 @@ import Topic from './page/topic'
 import Top from './page/top'
 import Profile from './page/profile'
 
-import { BrowserRouter, Route ,Routes } from 'react-router-dom';
+import { BrowserRouter, Route ,Routes, useParams } from 'react-router-dom';
 import './css/App.css';
 
 function App() {
